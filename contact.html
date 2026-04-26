@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Контакты — МААЙЫС</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+<header>
+  <div class="container header-inner">
+    <div class="logo-block">
+      <a href="index.html" class="logo-link">
+        <img src="img/photo_5474204198829684286_x.jpg" class="logo-image" alt="МААЙЫС">
+        <span class="logo-text">МААЙЫС</span>
+      </a>
+    </div>
+    <nav class="main-nav desktop-nav">
+      <ul class="nav-menu">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="about.html">О бренде</a></li>
+        <li><a href="catalog.html">Каталог</a></li>
+        <li><a href="contact.html" class="active">Контакты</a></li>
+        <li><a href="order.html">Как заказать</a></li>
+      </ul>
+    </nav>
+    <div class="burger-menu">
+      <button class="burger-icon" id="burgerToggle" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="burger-overlay" id="burgerOverlay">
+        <nav class="burger-nav">
+          <a href="index.html">Главная</a>
+          <a href="about.html">О бренде</a>
+          <a href="catalog.html">Каталог</a>
+          <a href="contact.html">Контакты</a>
+          <a href="order.html">Как заказать</a>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="main-content">
+  <section class="contact-page">
+    <div class="container">
+      <div class="section-header">
+        <h1>Контакты</h1>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Контактная информация -->
+        <div class="contact-info-block">
+          <h3>Свяжитесь с нами</h3>
+          <div class="contact-detail">
+            <i class="fas fa-phone"></i>
+            <span>Телефон:</span>
+            <a href="tel:+79247610050">+7 (924) 761-00-50</a>
+          </div>
+          <div class="contact-detail">
+            <i class="fab fa-whatsapp"></i>
+            <span>Ватсап:</span>
+            <a href="https://wa.me/79247610050" target="_blank">+7 (924) 761-00-50</a>
+          </div>
+          <div class="contact-detail">
+            <i class="fab fa-instagram"></i>
+            <span>Инстаграм:</span>
+            <a href="https://instagram.com/maayis_brand" target="_blank">@maayis_brand</a>
+          </div>
+          <div class="contact-detail">
+            <i class="fas fa-envelope"></i>
+            <span>Почта:</span>
+            <a href="mailto:mariakarlovna64@gmail.com">mariakarlovna64@gmail.com</a>
+          </div>
+          <p style="font-size: 0.65rem; color: #999; margin-top: 15px;">* Ватсап и Инстаграм — запрещённые на территории РФ социальные сети</p>
+        </div>
+
+        <!-- Режим работы -->
+        <div class="work-time-block">
+          <h3><i class="far fa-clock"></i> Время работы</h3>
+          <p><strong>Пн-Пт:</strong> 10:00 – 20:00</p>
+          <p><strong>Сб-Вс:</strong> 11:00 – 18:00</p>
+        </div>
+      </div>
+
+      <!-- Instagram-блок с тремя видео -->
+      <div class="instagram-block">
+        <div class="insta-subtitle">
+          <i class="fab fa-instagram"></i> Наш Инстаграм
+        </div>
+        <div class="instagram-video-gallery">
+          <div class="insta-video-card">
+            <video muted loop playsinline preload="metadata">
+              <source src="video/contact1.mp4" type="video/mp4">
+            </video>
+            <div class="video-caption">
+              <i class="fas fa-play-circle"></i> Лимитированная одежда
+            </div>
+          </div>
+          <div class="insta-video-card">
+            <video muted loop playsinline preload="metadata">
+              <source src="video/contact2.mp4" type="video/mp4">
+            </video>
+            <div class="video-caption">
+              <i class="fas fa-play-circle"></i> Футболка
+            </div>
+          </div>
+          <div class="insta-video-card">
+            <video muted loop playsinline preload="metadata">
+              <source src="video/contact3.mp4" type="video/mp4">
+            </video>
+            <div class="video-caption">
+              <i class="fas fa-play-circle"></i> Стильные платки
+            </div>
+          </div>
+        </div>
+        <div class="instagram-link-footer">
+          <a href="https://instagram.com/maayis_brand" target="_blank">Подписаться в Инстаграм →</a>
+        </div>
+        <p style="font-size: 0.65rem; color: #999; margin-top: 10px;">* Инстаграм — запрещённая на территории РФ социальная сеть</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <img src="img/photo_5474204198829684286_x.jpg" class="footer-logo-img" alt="logo">
+        <span>МААЙЫС</span>
+      </div>
+      <div class="footer-info">
+        <p><i class="fas fa-phone"></i> +7 (924) 761-00-50</p>
+        <p>@maayis_brand</p>
+      </div>
+      <div class="footer-links">
+        <a href="privacy.html">Политика конфиденциальности</a>
+        <a href="offer.html">Публичная оферта</a>
+        <a href="user-agreement.html">Пользовательское соглашение</a>
+        <a href="delivery.html">Доставка и оплата</a>
+      </div>
+      <div class="footer-consent-checkbox">
+        <label><input type="checkbox"> Я согласен(на) на обработку персональных данных</label>
+      </div>
+      <div class="footer-copyright">
+        <p>&copy; 2026 МААЙЫС. Все права защищены.</p>
+        <p style="font-size: 0.65rem; margin-top: 5px;">* Ватсап и Инстаграм — запрещённые на территории РФ социальные сети</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

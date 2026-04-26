@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>МААЙЫС — орнамент с историей</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+<header>
+  <div class="container header-inner">
+    <div class="logo-block">
+      <a href="index.html" class="logo-link">
+        <img src="img/photo_5474204198829684286_x.jpg"  class="logo-image">
+        <span class="logo-text">МААЙЫС</span>
+      </a>
+    </div>
+    <nav class="main-nav desktop-nav">
+      <ul class="nav-menu">
+        <li><a href="index.html" class="active">Главная</a></li>
+        <li><a href="about.html">О бренде</a></li>
+        <li><a href="catalog.html">Каталог</a></li>
+        <li><a href="contact.html">Контакты</a></li>
+        <li><a href="order.html">Как заказать</a></li>
+      </ul>
+    </nav>
+    <div class="burger-menu">
+      <button class="burger-icon" id="burgerToggle" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="burger-overlay" id="burgerOverlay">
+        <nav class="burger-nav">
+          <a href="index.html">Главная</a>
+          <a href="about.html">О бренде</a>
+          <a href="catalog.html">Каталог</a>
+          <a href="contact.html">Контакты</a>
+          <a href="order.html">Как заказать</a>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+<main class="main-content">
+  <section class="hero">
+    <div class="container hero-container">
+      <div class="hero-content">
+        <h1>МААЙЫС — одежда для тех, кто любит удобство и стиль</h1>
+        <p>Для улицы, спорта, школы или повседневной жизни — наша одежда не просто красива, она живая.</p>
+        <a href="catalog.html" class="btn btn-primary">Перейти в каталог</a>
+      </div>
+      <div class="hero-slider">
+  <div class="video-slider-wrapper">
+    <div class="video-slider-container">
+      <div class="video-slider-track">
+        <div class="video-slide">
+          <video autoplay muted loop playsinline>
+            <source src="video/slider1.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="video-slide">
+          <video muted loop playsinline>
+            <source src="video/slider2.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="video-slide">
+          <video muted loop playsinline>
+            <source src="video/slider3.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="video-slide">
+          <video muted loop playsinline>
+            <source src="video/slider4.MP4" type="video/mp4">
+          </video>
+        </div>
+        <div class="video-slide">
+          <video muted loop playsinline>
+            <source src="video/slider5.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="video-slide">
+          <video muted loop playsinline>
+            <source src="video/slider6.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+            <button class="slider-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+            <button class="slider-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+          </div>
+          <div class="slider-dots"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="about-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>О бренде</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-card">
+        <p class="about-text">Одежда и спортивная экипировка с якутским орнаментом и современный дизайн</p>
+        <a href="about.html" class="btn btn-outline">Подробнее о нас <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+  <section class="catalog-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Наш каталог</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="catalog-simple">
+        <p>Ознакомьтесь с нашей коллекцией одежды с якутскими орнаментами</p>
+        <a href="catalog.html" class="btn btn-primary btn-large">Перейти в каталог <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+  <section class="contact-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Контакты</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="contact-preview">
+        <div class="contact-item">
+          <i class="fas fa-phone-alt"></i>
+          <a href="tel:+79247610050">+7 (924) 761-00-50</a>
+        </div>
+        <div class="contact-item">
+          <a href="https://instagram.com/maayis_brand" target="_blank">@maayis_brand</a>
+        </div>
+      </div>
+      <div class="contact-footer">
+        <a href="contact.html" class="btn btn-outline">Все контакты <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+  <!-- ПРОМО-БАННЕР  -->
+  <section class="promo-banner">
+    <div class="promo-content">
+      <h3><i class="fas fa-fire"></i> СКИДКИ до 35% <i class="fas fa-fire"></i></h3>
+      <p>Только до 10 мая</p>
+      <a href="https://wa.me/79247610050" class="btn btn-promo" target="_blank">Получить скидку <i class="fas fa-gift"></i></a>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <img src="img/photo_5474204198829684286_x.jpg" class="footer-logo-img" alt="logo">
+        <span>МААЙЫС</span>
+      </div>
+      <div class="footer-info">
+        <p><i class="fas fa-phone"></i> +7 (924) 761-00-50</p>
+        <p> @maayis_brand</p>
+      </div>
+      <div class="footer-links">
+        <a href="privacy.html">Политика конфиденциальности</a>
+        <a href="offer.html">Публичная оферта</a>
+        <a href="user-agreement.html">Пользовательское соглашение</a>
+        <a href="delivery.html">Доставка и оплата</a>
+      </div>
+      <div class="footer-consent-checkbox">
+        <label><input type="checkbox"> Я согласен(на) на обработку персональных данных</label>
+      </div>
+      <div class="footer-copyright">
+        <p>&copy; 2026 МААЙЫС. Все права защищены.</p>
+        <p style="font-size: 0.65rem; margin-top: 5px;">* Ватсап и Инстаграм — запрещённые на территории РФ социальные сети</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
